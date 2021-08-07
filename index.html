@@ -20,7 +20,7 @@
   <div class="calculator">
     <div class="UI-left">
       <label for="bill">Bill</label>
-      <input type="number" name="bill" id="bill" placeholder="0">
+      <input type="number" name="bill" id="bill" placeholder="0" min="0">
       <table class="tips-table">
         <tr>
           <th>Select Tip %</th>
@@ -50,9 +50,31 @@
           </td>
         </tr>
       </table>
+      <label for="people">Number of people</label>
+      <input type="number" name="people" id="people" placeholder="0" min="0">
     </div>
     <div class="UI-rigth">
-      
+      <table class="display-table">
+        <tr>
+          <th class="display-reason">
+            <p class="head-reason">Tip Amount</p>
+            <p>/ person</p>
+          </th>
+          <td class="display">
+            $0.00
+          </td>
+        </tr>
+        <tr>
+          <th class="display-reason">
+            <p class="head-reason">Total</p>
+            <p>/ person</p>
+          </th>
+          <td class="display">
+            $0.00
+          </td>
+        </tr>
+      </table>
+      <button disabled="disabled">RESET</button>
     </div>
   </div>
   
@@ -60,5 +82,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Rodrigo Villalobos</a>.
   </div>
+  <script src="resources\script\script.js"></script>
 </body>
 </html>
