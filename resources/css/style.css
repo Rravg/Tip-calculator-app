@@ -26,9 +26,8 @@ body {
 #bill {
     background-image: url('../../images/icon-dollar.svg');  
     background-position: 3% 50%;
-    background-size: 5%;
+    background-size: 2%;
     background-repeat: no-repeat;
-    background-size: 4%;
     background-color: hsl(189, 41%, 97%);
     border: none;
 }
@@ -44,11 +43,13 @@ input {
     padding-right: 10px;
     font-size: 24px;
     font-family: 'Space Mono';
+    font-weight: 700;
     color: hsl(183, 100%, 15%);
     border-radius: 3px;
     cursor: pointer;
     height: fit-content;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 input::-webkit-outer-spin-button,
@@ -61,6 +62,38 @@ input::-webkit-inner-spin-button {
 input:focus { 
     outline-color: hsl(172, 67%, 45%);
     box-shadow: 0 0 5px hsl(172, 67%, 45%);
+}
+
+.tips-table {
+    border-spacing: 10px;
+    width: 100%;
+}
+
+.tohide {
+    color: transparent;
+}
+
+.tip-button {
+    background-color: hsl(183, 100%, 15%);
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.tip-button:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: black;
+}
+
+#custom-tip {
+    border: none;
+    margin: 0px;
+    background-color: hsl(189, 41%, 97%);
+    width: 119px;
 }
 
 .UI-rigth {
