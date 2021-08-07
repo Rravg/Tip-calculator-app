@@ -24,10 +24,12 @@ body {
 }
 
 #bill {
-    background-color: hsl(189, 41%, 97%);
-    background-image:  url('images\icon-dollar.svg');
-    background-position: left;
+    background-image: url('../../images/icon-dollar.svg');  
+    background-position: 3% 50%;
+    background-size: 5%;
     background-repeat: no-repeat;
+    background-size: 4%;
+    background-color: hsl(189, 41%, 97%);
     border: none;
 }
 
@@ -39,6 +41,7 @@ label {
 
 input {
     text-align: right;
+    padding-right: 10px;
     font-size: 24px;
     font-family: 'Space Mono';
     color: hsl(183, 100%, 15%);
