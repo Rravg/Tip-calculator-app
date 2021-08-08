@@ -50,8 +50,9 @@
           </td>
         </tr>
       </table>
-      <label for="people">Number of people</label>
-      <input type="number" name="people" id="people" placeholder="0" min="0">
+      <label for="people">Number of people<span id="cant-zero">Can't be zero</span></label>
+      <!-- <label for="people" id="cant-zero">Can't be zero</label> -->
+      <input type="number" name="people" id="people" placeholder="0" min="1">
     </div>
     <div class="UI-rigth">
       <table class="display-table">
@@ -74,7 +75,7 @@
           </td>
         </tr>
       </table>
-      <button disabled="disabled">RESET</button>
+      <button disabled="disabled" id="button">RESET</button>
     </div>
   </div>
   

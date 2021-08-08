@@ -40,6 +40,13 @@ label {
     display: block;
     margin-bottom: 4px;
     font-weight: 400;
+    bottom: 0px;
+}
+
+span {
+    display: block;
+    float: right;
+    color: transparent;
 }
 
 input {
@@ -111,6 +118,18 @@ input:focus {
     border: none;
 }
 
+#people:invalid {
+    border: solid;
+    border-color: red;
+    
+}
+
+#people:invalid:focus {
+    outline-color: red;
+    box-shadow: 0 0 5px red;
+}
+
+
 .UI-rigth {
     background-color: hsl(183, 100%, 15%);
     border-radius: 15px;
@@ -122,6 +141,7 @@ input:focus {
     font-size: 48px;
     font-weight: 700;
     color: hsl(172, 67%, 45%);
+    overflow: clip;
 }
 
 .display-reason {
@@ -144,3 +164,9 @@ button {
     font-family: 'Space Mono';
     font-weight: 600;
 }
+
+/* button:disabled {
+    color: -internal-light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3));
+    background-color: -internal-light-dark(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3));
+    border-color: -internal-light-dark(rgba(118, 118, 118, 0.3), rgba(195, 195, 195, 0.3));
+} */
