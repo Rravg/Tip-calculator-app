@@ -164,7 +164,8 @@ let clickedButton = function(event) {
             total.innerHTML = `$${bill}`; 
         } else if (!Number.isNaN(custom)) {
             let customValue = custom;
-
+            event.target.style.backgroundColor = 'hsl(189, 41%, 97%)';
+            
             tip5.style.backgroundColor = 'hsl(183, 100%, 15%)';
             tip5.style.color = 'white';
             tip10.style.backgroundColor = 'hsl(183, 100%, 15%)';
