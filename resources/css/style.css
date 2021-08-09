@@ -24,6 +24,7 @@ p {
 }
 
 .UI-left {
+    width: 100%;
     margin-right: 70px;
 }
 
@@ -75,14 +76,20 @@ input:focus {
     box-shadow: 0 0 5px hsl(172, 67%, 45%);
 }
 
-.tips-table {
-    border-spacing: 10px;
-    width: 100%;
-    margin-bottom: 20px;
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "select select select"
+    "5percent 10percent 15percent"
+    "25percent 50percent custom";
+    justify-items: stretch;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
 }
 
-.tohide {
-    color: transparent;
+.select {
+    grid-area: select;
 }
 
 .tip-button {
@@ -167,11 +174,45 @@ button {
 
 @media only screen and (max-width: 376px) {
     .calculator {
-        flex-direction: column;
+        flex-flow: column;
         width: auto;
     }
 
-    .tips-table{
+    .grid {
         width: 100%;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas: 
+        "select select"
+        "percent5 percent10"
+        "percent15 percent25"
+        "percent50 custom";
+        justify-items: stretch;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10px;
+    }
+
+    .select {
+        grid-area: select;
+    }
+
+    #5tip {
+        grid-area: percent5;
+    }
+
+    #10tip {
+        grid-area: percent10;
+    }
+
+    #15tip {
+        grid-area: percent15;
+    }
+
+    #25tip {
+        grid-area: percent25;
+    }
+
+    #50tip {
+        grid-area: percent50;
     }
 }

@@ -21,34 +21,15 @@
     <div class="UI-left">
       <label for="bill">Bill</label>
       <input type="number" name="bill" id="bill" placeholder="0" min="0">
-      <table class="tips-table">
-        <tr>
-          <th>Select Tip %</th>
-          <th class="tohide">Select Tip %</th>
-          <th class="tohide">Select Tip %</th>
-        </tr>
-        <tr>
-          <td class="tip-button" id="5tip">
-            5%
-          </td>
-          <td class="tip-button" id="10tip">
-            10%
-          </td>
-          <td class="tip-button" id="15tip">
-            15%
-          </td>
-        </tr>
-        <tr>
-          <td class="tip-button" id="25tip">
-            25%
-          </td>
-          <td class="tip-button" id="50tip">
-            50%
-          </td>
-          <td>
-            <input type="number" id="custom-tip" name="custome-tip" placeholder="Custom">
-          </td>
-        </tr>
+      <div class="grid">
+        <div class="select">Select Tip %</div>
+        <div class="tip-button" id="5tip">5%</div>
+        <div class="tip-button" id="10tip">10%</div>
+        <div class="tip-button" id="15tip">15%</div>
+        <div class="tip-button" id="25tip">25%</div>
+        <div class="tip-button" id="50tip">50%</div>
+        <input type="number" id="custom-tip" name="custome-tip" placeholder="Custom">
+      </div>
       </table>
       <label for="people">Number of people<span id="cant-zero">Can't be zero</span></label>
       <!-- <label for="people" id="cant-zero">Can't be zero</label> -->
