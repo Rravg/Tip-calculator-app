@@ -148,7 +148,7 @@ input:focus {
     font-size: 48px;
     font-weight: 700;
     color: hsl(172, 67%, 45%);
-    overflow: clip;
+    overflow: hidden;
 }
 
 .display-reason {
