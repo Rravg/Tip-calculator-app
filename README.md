@@ -60,7 +60,7 @@ Quiero seguir estudiando mejores metodos para hacer que la apliacion sea compati
 
 ## Author
 
-- Website - [Rodrigo Alexander Villalobos Garcia](https://www.your-site.com)
+- Website - [Rodrigo Alexander Villalobos Garcia]()
 - Frontend Mentor - [@rravg](https://www.frontendmentor.io/profile/Rravg)
 
  🚀 🎉
