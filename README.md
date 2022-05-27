@@ -53,9 +53,7 @@ Mejore mis habilidades usando "Grids" en html y entendi la importancia de que un
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-I want to continue focusing on compatibility issues acrros browsers and screen-sizes.
+Continue learning on compatibility issues acrros browsers and screen-sizes.
 
 Quiero seguir estudiando mejores metodos para hacer que la apliacion sea compatible con todo tipo de navegadores y tamaños de pantalla
 
